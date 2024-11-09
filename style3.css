@@ -1,0 +1,71 @@
+.con{
+    display:grid;
+    height:92vh;
+    width:97vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr  ;
+    grid-template-areas: 
+    'div1 div2 div3'
+    'div4 div4 div5';
+    
+    gap: 15px;  
+    background-color:white ;
+    border:none;
+    position:relative;
+    top:30px;
+    border-radius: 30px;
+    
+}
+.div1{
+    grid-area:div1;
+    background-image: url(./images/building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    align-content: end;
+}
+.div2{
+    grid-area:div2;
+    background-color:blueviolet;
+    border-radius: 30px;
+    align-content: end;
+    background-image: url(./images/music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div3{
+    grid-area:div3;
+    background-color: brown;
+    border-radius: 30px;
+    align-content: end;
+    background-image: url(./images/fruits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div4{
+    grid-area:div4;
+    background-color:antiquewhite;
+    border-radius: 30px;
+    align-content: end;
+    background-image: url(./images/conference.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div5{
+    grid-area:div5;
+    background-color:goldenrod;
+    border-radius: 30px;
+    align-content: end;
+    background-image: url(./images/snacks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+*{
+    text-align: center;
+}
+

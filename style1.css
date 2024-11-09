@@ -1,0 +1,79 @@
+.con{
+    display:grid;
+    width:99vw;
+    height:99vh;
+    background-color:rgb(239, 234, 234);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    'div1 div1 div2 div2'
+    'div1 div1 div2 div2'
+    'div1 div1 div3 div4'
+    'div1 div1 div3 div4';
+    gap: 15px;
+  
+    border:none;
+    position:fixed;
+
+}
+.div1{
+    grid-area:div1;
+    background-image: url(vijay.webp);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    border:none;
+   
+}
+.div2{
+    grid-area:div2;
+    border:4px solid rgb(178, 153, 153);
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    
+    text-align:initial;
+    
+}
+.div3{
+    grid-area:div3;
+    background-color: rgba(220,55,72,255);
+    justify-content: center;
+    align-content: center;
+    font-size: xx-large;
+    text-align: center;
+    color:white;
+   
+}
+.div4{
+    grid-area:div4;
+    background-color: rgba(250,194,19,255);
+    font-size: xx-large;
+    align-content: center;
+    justify-content: center;
+    color:white;
+    text-align: center;
+}
+.div1,.div2,.div3,.div4{
+    border:5px solid white;
+    padding:5px;
+    border-radius: 40px;
+}
+.div11{
+    
+    align-self: baseline;
+    margin-top:600px;
+    margin-left:30px;
+}
+button{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 25px;
+    background-color: rgba(250,194,19,255);
+    color:white;
+    border:none;
+    font-size:20px;
+    
+}
